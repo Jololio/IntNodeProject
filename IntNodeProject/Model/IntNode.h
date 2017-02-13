@@ -9,7 +9,19 @@
 #ifndef IntNode_h
 #define IntNode_h
 
-
+class IntNode
+{
+public:
+    void setNodeData(int newValue);
+    void setNodePointer(IntNode * nodePointer);
+    int getNodeData();
+    IntNode();
+    IntNode(int value);
+    IntNode(int value, IntNode * nodePointer);
+    
+private:
+    int value;
+};
 
 
 

@@ -34,6 +34,7 @@
 		5553D4D01E4BA272009ADE8D /* DataStructureController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataStructureController.cpp; path = Controller/DataStructureController.cpp; sourceTree = "<group>"; };
 		5553D4D11E4BA272009ADE8D /* DataStructureController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataStructureController.hpp; path = Controller/DataStructureController.hpp; sourceTree = "<group>"; };
 		5553D4D31E4BA2BF009ADE8D /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IntNode.cpp; path = Model/IntNode.cpp; sourceTree = "<group>"; };
+		55A763211E523EAE00EE9BA5 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Node.h; path = Model/Node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 				5553D4CC1E4BA208009ADE8D /* IntNode.h */,
 				5553D4CD1E4BA219009ADE8D /* IntNodeArray.cpp */,
 				5553D4CE1E4BA219009ADE8D /* IntNodeArray.hpp */,
+				55A763211E523EAE00EE9BA5 /* Node.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -280,6 +282,7 @@
 				5553D4C71E4BA1B6009ADE8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
