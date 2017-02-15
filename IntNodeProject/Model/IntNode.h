@@ -20,7 +20,8 @@ public:
     IntNode(int value, IntNode * nodePointer);
     
 private:
-    int value;
+    int nodeData;
+    IntNode nodePointer;
 };
 
 

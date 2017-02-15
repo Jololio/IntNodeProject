@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>70</y>
+      <x>580</x>
+      <y>50</y>
       <w>490</w>
       <h>210</h>
     </coordinates>
@@ -64,20 +64,26 @@ Constructors
 + Node(Type data, Node&lt;Type&gt; * pointer) : constructor
 
 
-Methods</panel_attributes>
+Methods
+
++ getNodeData() : Type
++ getNodePointer() : Node&lt;Type&gt; *
++ setNodeData(Type data) : void
++ setNodePointer(Node&lt;Type&gt; * next) : void
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>180</y>
-      <w>70</w>
-      <h>60</h>
+      <x>1060</x>
+      <y>160</y>
+      <w>90</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 1..n</panel_attributes>
-    <additional_attributes>50.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>70.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
@@ -91,5 +97,44 @@ Methods</panel_attributes>
 --
 bg=orange</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>430</y>
+      <w>470</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>Array&lt;Type&gt;
+--
+Data Members
+- front : Node&lt;Type&gt; *
+- size : int
+
+--
+Constructors
++ Array() : constructor
++ Array(int size) : constructor
+
+Methods
+
++ getSize() : int
++ setAtIndex(int index, Type value) : void
++ getFromIndex(int index) : Type
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>320</y>
+      <w>50</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+1..n</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
