@@ -117,7 +117,18 @@ void List<Type> :: addAtIndex(int index, Type value)
 template <class Type>
 Type List<Type> :: setAtIndex(int index, Type data)
 {
-
+    assert(index >= 0 && index < size);
+    Type information;
+    
+    Node<Type> * current = front;
+    for(int spot = 0; spot < index; spot++)
+    {
+        current = current->getNodePointer();
+    }
+    
+    information = current->setNodeData(data);
+    
+    return information;
 }
 
 template <class Type>
