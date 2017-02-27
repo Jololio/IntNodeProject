@@ -43,7 +43,7 @@ int IntNodeArray :: getFromIndex(int index)
 
 void IntNodeArray :: setAtIndex(int index, int value)
 {
-    assert(index >= 0 && index < size)
+    assert(index >= 0 && index < size);
     
     IntNode * current = front;
     

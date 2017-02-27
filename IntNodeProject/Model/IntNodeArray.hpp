@@ -9,7 +9,7 @@
 #ifndef IntNodeArray_hpp
 #define IntNodeArray_hpp
 
-#include "IntNode.hpp"
+#include "IntNode.h"
 
 class IntNodeArray
 {
@@ -19,7 +19,7 @@ private:
     
 public:
     IntNodeArray(int size);
-    void setAtIndex(int index, int value)
+    void setAtIndex(int index, int value);
     int getFromIndex(int index);
     int getSize();
 };

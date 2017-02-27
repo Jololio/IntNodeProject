@@ -20,7 +20,7 @@ private:
     Node<Type> * end;
     int size;
 public:
-    LIst<Type>();
+    List<Type>();
     List<Type>(const List<Type> & source);
     ~List<Type>();
     List<Type>& operator =(const List<Type> & replacingList);
@@ -141,14 +141,14 @@ Type List<Type> :: remove(int index)
     Node<Type> * previous = nullptr;
     Node<Type> * toBeRemoved = nullptr;
     
-    if(index == 0()
+    if(index == 0)
     {
         toBeRemoved = front;
-        this-> = front->getNodePointer();
+        this->front = front->getNodePointer();
     }
     else if(index == size - 1)
     {
-        for(inte spot = 0; spot < index; spot++)
+        for(int spot = 0; spot < index; spot++)
         {
             previous = current;
             current = current->getNodePointer();
@@ -168,7 +168,7 @@ Type List<Type> :: remove(int index)
         
         toBeRemoved = current;
         current = toBeRemoved->getNodePointer();
-        previous->setNodePointer(curent);
+        previous->setNodePointer(current);
     }
     removed = toBeRemoved->getNodeData();
     

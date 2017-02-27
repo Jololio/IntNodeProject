@@ -14,6 +14,7 @@ class IntNode
 public:
     void setNodeData(int newValue);
     void setNodePointer(IntNode * nodePointer);
+    IntNode * getNodePointer();
     int getNodeData();
     IntNode();
     IntNode(int value);
@@ -21,7 +22,7 @@ public:
     
 private:
     int nodeData;
-    IntNode nodePointer;
+    IntNode *  nodePointer;
 };
 
 
