@@ -19,6 +19,7 @@ private:
     Node<Type> * front;
     Node<Type> * end;
     int size;
+    int position;
 public:
     List<Type>();
     List<Type>(const List<Type> & source);
@@ -178,5 +179,28 @@ Type List<Type> :: remove(int index)
     return removed;
     
 }
+
+template <class Type>
+Type List<Type> :: getFromIndex(int index)
+{
+    assert(index > 0 && index < size);
+    Type value;
+    Node<Type> * current = front;
+    for(int index = 0; position < index; position++)
+    {
+        current = current->getNodePointer();
+    }
+    
+    value = current->getNodeData();
+    return value;
+
+}
+
+template <class Type>
+int List<Type> :: getSize() const
+{
+    return size;
+}
+
 
 #endif /* List_h */
