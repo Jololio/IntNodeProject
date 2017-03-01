@@ -40,6 +40,29 @@ public:
 };
 
 template <class Type>
+List<Type> :: List()
+{
+    size = 0;
+    front = nullptr;
+    end = nullptr;
+}
+
+template <class Type>
+List<Type> :: ~List()
+{
+    int count = size;
+    Node<Type> * remove = front;
+    while(front != nullptr)
+    {
+        front = front->getNodePointer();
+        delete remove;
+        remove = front;
+        count--;
+    }
+
+}
+
+template <class Type>
 Node<Type> * List<Type> :: getEnd() const
 {
     return end;

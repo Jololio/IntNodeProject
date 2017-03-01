@@ -23,11 +23,29 @@ private:
 public:
     Array();
     Array(int size);
-    
+    ~Array<Type>();
     void setAtIndex(int index, Type value);
     Type getFromIndex(int index)
     int getSize();
 };
+
+template <class Type>
+Array<Type> :: ~Array()
+{
+    int count = size;
+    Node<Type> * remove = front;
+    while(front != nullptr)
+    {
+        front = front->getNodePointer();
+        cout << "Moving to the next node. At: " << cout << endl;
+        delete remove;
+        cout << "Deleting the old front pointer." << endl;
+        remove = front;
+        cout << "Moving to new front pointer" << endl;
+        count--;
+        cout << "Front is at: " << front << " count is " << count << endl;
+    }
+}
 
 template <class Type>
 Array<Type> :: Array()
