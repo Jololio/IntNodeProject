@@ -223,4 +223,28 @@ bg=yellow</panel_attributes>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1050</x>
+      <y>40</y>
+      <w>440</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>/DoublyLinkedList&lt;Type&gt;/
+--
+- front : BiDirectionalNode&lt;Type&gt; * 
+- end : BiDirectionalNode&lt;Type&gt; *
+- size : int
+--
+Non virtual methods
++ getSize() const : int
++ getFront() const : BiDirectionalNode&lt;Type&gt; *
++ getEnd() const : BiDirectionalNode&lt;Type&gt; *
+
+Virtual Methods
++ add(Type value)
++ remove(int)</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
