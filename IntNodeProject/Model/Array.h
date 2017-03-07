@@ -36,7 +36,7 @@ Array<Type> :: ~Array()
     Node<Type> * remove = front;
     while(front != nullptr)
     {
-        front = front->getNodePointer();
+        front = front->getNextPointer();
         cout << "Moving to the next node. At: " << cout << endl;
         delete remove;
         cout << "Deleting the old front pointer." << endl;
@@ -64,7 +64,7 @@ Array<Type> :: Array(int size)
     for (int index = 1; index < size; index++)
     {
         Node<Type>() * current = new Node<Type>();
-        current->setNodePointer(front);
+        current->setNextPointer(front);
         front = current;
     }
         
@@ -77,7 +77,7 @@ void Array<Type> :: setAtIndex(int index, Type data)
     Node<Type> * current = front;
     for(int spot = 0; spot < index; spot++)
     {
-        current = current->getNodePointer();
+        current = current->getNextPointer();
     }
     
     current->setNodeData(data);
@@ -91,7 +91,7 @@ Type Array<Type> :: getFromIndex(int index)
     Node<Type> * current = front;
     for(int index = 0; position < index; position++)
     {
-        current = current->getNodePointer();
+        current = current->getNextPointer();
     }
     
     value = current->getNodeData();

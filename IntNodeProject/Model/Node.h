@@ -14,16 +14,16 @@ class Node
 {
 private:
     Type nodeData;
-    Node<Type> * nodePointer;
+    Node<Type> * nextPointer;
 public:
     Node();
     Node(Type nodeData);
     Node(Type data, Node<Type> * next);
     
     void setNodeData(Type data);
-    void setNodePointer(Node<Type> * pointer);
+    void setNextPointer(Node<Type> * pointer);
     Type getNodeData();
-    Node<Type> * getNodePointer();
+    Node<Type> * getNextPointer();
 };
 
 
@@ -35,7 +35,7 @@ template <class Type>
 Node<Type> :: Node()
 {
     //Explicitly DO NOT instantiate the nodeData data member
-    this->nodePointer = nullptr;
+    this->nextPointer = nullptr;
     
 }
 
@@ -43,14 +43,14 @@ template <class Type>
 Node<Type> :: Node(Type data)
 {
     this->nodeData = data;
-    this->nodePointer = nullptr;
+    this->nextPointer = nullptr;
 }
 
 template <class Type>
-Node<Type> :: Node(Type nodeData, Node<Type> * nodePointer)
+Node<Type> :: Node(Type nodeData, Node<Type> * nextPointer)
 {
     this->nodeData = nodeData;
-    this->nodePointer = nodePointer;
+    this->nextPointer = nextPointer;
 }
 
 template <class Type>
@@ -60,9 +60,9 @@ void Node<Type> :: setNodeData(Type data)
 }
 
 template <class Type>
-void Node<Type> :: setNodePointer(Node<Type> * pointer)
+void Node<Type> :: setNextPointer(Node<Type> * pointer)
 {
-    this->nodePointer = pointer;
+    this->nextPointer = pointer;
 }
 
 template <class Type>
@@ -72,9 +72,9 @@ Type Node<Type> :: getNodeData()
 }
 
 template <class Type>
-Node<Type> * Node<Type> :: getNodePointer()
+Node<Type> * Node<Type> :: getNextPointer()
 {
-    return this->nodePointer;
+    return this->nextPointer;
 }
 
 
