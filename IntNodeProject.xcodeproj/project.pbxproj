@@ -27,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		55360EC71E54E431001D9828 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Array.h; path = Model/Array.h; sourceTree = "<group>"; };
+		553C55EC1E6F4A680063CD62 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Model/Stack.h; sourceTree = "<group>"; };
 		5553D4BE1E4BA1B6009ADE8D /* IntNodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntNodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		5553D4CA1E4BA1F4009ADE8D /* NodeRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NodeRunner.cpp; path = Controller/NodeRunner.cpp; sourceTree = "<group>"; };
 		5553D4CC1E4BA208009ADE8D /* IntNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntNode.h; path = Model/IntNode.h; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 				5597530F1E675D340034A83E /* DoublyLinkedList.h */,
 				559753101E6768C00034A83E /* CircularList.h */,
 				55EA30CB1E6A048B001B66DE /* Queue.h */,
+				553C55EC1E6F4A680063CD62 /* Stack.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
