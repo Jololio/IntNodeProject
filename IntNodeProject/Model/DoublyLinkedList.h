@@ -19,7 +19,7 @@ private:
     BiDirectionalNode<Type> * end;
     int size;
 public:
-    DoublyLinkedList()
+    DoublyLinkedList();
     virtual ~DoublyLinkedList() = 0;
     
     int getSize() const;
@@ -42,29 +42,29 @@ DoublyLinkedList<Type> :: DoublyLinkedList()
     end = nullptr;
 }
 
+template <class Type>
+DoublyLinkedList<Type> :: ~DoublyLinkedList()
+{
+    
+}
+
 
 template <class Type>
-int DoublyLinkedList<Type> :: getSize()
+int DoublyLinkedList<Type> :: getSize() const
 {
     return size;
 }
 
 template <class Type>
-BiDirectionalNode<Type> * DoublyLinkedList<Type> :: getFront()
+BiDirectionalNode<Type> * DoublyLinkedList<Type> :: getFront() const
 {
     return front;
 }
 
 template <class Type>
-BiDirectionalNode<Type> * DoublyLinkedList<Type> :: getEnd()
+BiDirectionalNode<Type> * DoublyLinkedList<Type> :: getEnd() const
 {
     return end;
-}
-
-template <class Type>
-void DoublyLinkedList<Type> :: setFront(BiDirectionalNode<Type> * front)
-{
-    this->front = front;
 }
 
 template <class Type>
@@ -85,22 +85,7 @@ void DoublyLinkedList<Type> :: setEnd(BiDirectionalNode<Type> * end)
     this->end = end;
 }
 
-template <class Type>
-BiDirectionalNode<Type> * DoublyLinkedList<Type> :: getFront() const
-{
-    return front;
-}
 
-template <class Type>
-BiDirectionalNode<Type> * DoublyLinkedList<Type> :: getEnd() const
-{
-    return end;
-}
-
-int DoublyLinkedList<Type> :: getSize() const
-{
-    return size;
-}
 
 
 

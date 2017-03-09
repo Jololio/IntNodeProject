@@ -9,7 +9,7 @@
 #ifndef Queue_h
 #define Queue_h
 
-#include "DoublyLinkedList.hpp"
+#include "DoublyLinkedList.h"
 
 template <class Type>
 class Queue : public DoublyLinkedList<Type>

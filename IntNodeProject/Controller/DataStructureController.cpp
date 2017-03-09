@@ -8,16 +8,14 @@
 
 
 
-#include "List.hpp"
+
 #include "DataStructureController.hpp"
 #include <iostream>
-#include "../Model/IntNodeArray.hpp"
 using namespace std;
 
 DataStructureController :: DataStructureController()
 {
-    wordNote = Node<string>("aight dude");
-    numberNode = Node<int>();
+    
 }
 
 void DataStructureController :: testNodes()
@@ -30,11 +28,8 @@ void DataStructureController :: testNodes()
 
 void DataStructureController :: start()
 {
-    cout << "Starting the project" << endl;
-    testNodes();
-    cout << "Switching to the array testing" << endl;
-    
-    testIntArray();
+    cout << "Going to test the Timing of DoubleList" << endl;
+    testListTiming();
     cout << "Finished testing" << endl;
 }
 
@@ -83,6 +78,50 @@ void DataStructureController :: testListIntro()
 
 
 
+void DataStructureController :: testListTiming()
+{
+    DoubleList<int> timingList;
+    Timer totalTimer;
+    totalTimer.startTimer();
+    for(int index = 0; index < 10000; index++)
+    {
+        timingList.add(rand());
+    }
+    
+    long slowTime [1000];
+    long fastTime [1000];
+    double averageSlow = 0.00, averageFast = 0.00;
+    Timer doubleTimer;
+    
+    for(int index = 0; index < 1000; index++)
+    {
+        int randomIndex = rand() % 10000;
+        doubleTimer.startTimer();
+        timingList.getFromIndex(randomIndex);
+        doubleTimer.finishTimer();
+        slowTime[index] = doubleTimer.getExecutionTimeInMicroseconds();
+        doubleTimer.resetTimer();
+        
+        doubleTimer.startTimer();
+        timingList.getFromIndexFast(randomIndex);
+        doubleTimer.finishTimer();
+        fastTime[index] = doubleTimer.getExecutionTimeInMicroseconds();
+        doubleTimer.resetTimer();
+        
+        averageSlow += slowTime[index];
+        averageFast += fastTime[index];
+    }
+    
+    averageSlow = averageSlow/1000.00;
+    averageFast = averageFast/1000.00;
+    totalTimer.finishTimer();
+    
+    cout << "The average speed for the getFromIndex method was: " << averageSlow << " microseconds." << endl;
+    
+    cout << "The average speed for the getFromIndexFast method was: " << averageFast << " microseconds." << endl;
+    
+    cout << "A time savings of: " << averageSlow - averageFast << " microseconds" << endl;
+}
 
 
 

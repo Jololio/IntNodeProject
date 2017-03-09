@@ -11,7 +11,8 @@
 
 #include "Node.h"
 #include <assert.h>
-
+#include <iostream>
+using namespace std;
 
 
 template <class Type>
@@ -25,7 +26,7 @@ public:
     Array(int size);
     ~Array<Type>();
     void setAtIndex(int index, Type value);
-    Type getFromIndex(int index)
+    Type getFromIndex(int index);
     int getSize();
 };
 
@@ -37,7 +38,7 @@ Array<Type> :: ~Array()
     while(front != nullptr)
     {
         front = front->getNextPointer();
-        cout << "Moving to the next node. At: " << cout << endl;
+        cout << "Moving to the next node. At: " << endl;
         delete remove;
         cout << "Deleting the old front pointer." << endl;
         remove = front;
@@ -63,7 +64,7 @@ Array<Type> :: Array(int size)
     
     for (int index = 1; index < size; index++)
     {
-        Node<Type>() * current = new Node<Type>();
+        Node<Type> * current = new Node<Type>();
         current->setNextPointer(front);
         front = current;
     }
@@ -89,7 +90,7 @@ Type Array<Type> :: getFromIndex(int index)
     assert(index > 0 && index < size);
     Type value;
     Node<Type> * current = front;
-    for(int index = 0; position < index; position++)
+    for(int position = 0; position < index; position++)
     {
         current = current->getNextPointer();
     }
