@@ -124,6 +124,30 @@ void DataStructureController :: testListTiming()
 }
 
 
+void DataStructureController :: testIntStack()
+{
+    Stack<int> numberStack;
+    numberStack.add(2314);
+    numberStack.push(32);
+    int testValue = numberStack.pop();
+    cout << "Test value is " << testValue << " and should be 32" << endl;
+}
+
+void DataStructureController :: testFoodQueue()
+{
+    Queue<FoodItem> tastyFood;
+    FoodItem ravioli("The dish of the Gods");
+    
+    tastyFood.enqueue(ravioli);
+    FoodItem beefaroni("Macaroni, but prepared by the Gods");
+    tastyFood.add(beefaroni);
+    
+    FoodItem removed = tastyFood.dequeue();
+    cout << "The item removed from the queue was " << removed.getFoodName() << " and should be The dish of the Gods" << endl;
+    
+}
+
+
 
 
 

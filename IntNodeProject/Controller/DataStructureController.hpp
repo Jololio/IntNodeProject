@@ -23,6 +23,7 @@
 #include "../Model/Node.h"
 #include "../Model/IntNode.h"
 #include "../Model/Timer.hpp"
+#include "../Model/Fooditem.h"
 
 using namespace std;
 
@@ -35,6 +36,8 @@ private:
     Node<int> numberNode;
     Node<string> wordNote;
     void testNodes();
+    void testIntStack();
+    void testFoodQueue();
 public:
     DataStructureController();
     void start();
