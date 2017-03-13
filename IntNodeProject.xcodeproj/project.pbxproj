@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55061CE31E71E27700053558 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55061CE11E71E27700053558 /* Timer.cpp */; };
+		553CADEF1E7711EF00FB8829 /* Fooditem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 553CADED1E7711EF00FB8829 /* Fooditem.cpp */; };
 		5553D4CB1E4BA1F4009ADE8D /* NodeRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5553D4CA1E4BA1F4009ADE8D /* NodeRunner.cpp */; };
 		5553D4CF1E4BA219009ADE8D /* IntNodeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5553D4CD1E4BA219009ADE8D /* IntNodeArray.cpp */; };
 		5553D4D21E4BA272009ADE8D /* DataStructureController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5553D4D01E4BA272009ADE8D /* DataStructureController.cpp */; };
@@ -32,6 +33,8 @@
 		55061CE21E71E27700053558 /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Timer.hpp; path = Model/Timer.hpp; sourceTree = "<group>"; };
 		55360EC71E54E431001D9828 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Array.h; path = Model/Array.h; sourceTree = "<group>"; };
 		553C55EC1E6F4A680063CD62 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Model/Stack.h; sourceTree = "<group>"; };
+		553CADED1E7711EF00FB8829 /* Fooditem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Fooditem.cpp; path = Model/Fooditem.cpp; sourceTree = "<group>"; };
+		553CADF01E77122600FB8829 /* Fooditem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Fooditem.h; path = Model/Fooditem.h; sourceTree = "<group>"; };
 		5553D4BE1E4BA1B6009ADE8D /* IntNodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntNodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		5553D4CA1E4BA1F4009ADE8D /* NodeRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NodeRunner.cpp; path = Controller/NodeRunner.cpp; sourceTree = "<group>"; };
 		5553D4CC1E4BA208009ADE8D /* IntNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntNode.h; path = Model/IntNode.h; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				55EA30CB1E6A048B001B66DE /* Queue.h */,
 				553C55EC1E6F4A680063CD62 /* Stack.h */,
 				55061CE01E71D7D500053558 /* DoubleList.h */,
+				553CADED1E7711EF00FB8829 /* Fooditem.cpp */,
+				553CADF01E77122600FB8829 /* Fooditem.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			files = (
 				5553D4CB1E4BA1F4009ADE8D /* NodeRunner.cpp in Sources */,
 				5553D4D41E4BA2BF009ADE8D /* IntNode.cpp in Sources */,
+				553CADEF1E7711EF00FB8829 /* Fooditem.cpp in Sources */,
 				5553D4D21E4BA272009ADE8D /* DataStructureController.cpp in Sources */,
 				55061CE31E71E27700053558 /* Timer.cpp in Sources */,
 				5553D4CF1E4BA219009ADE8D /* IntNodeArray.cpp in Sources */,
