@@ -65,4 +65,19 @@ void FoodItem :: setDelicious(bool delicious)
     this->delicious = delicious;
 }
 
+bool FoodItem :: operator < (FoodItem & otherFood)
+{
+    if(this->isDelicious() && otherFood.isDelicious())
+    {
+        if(this->getCalories() > otherFood.getCalories())
+        {
+            return true;
+        }
+        return false;
+    }
+    return false;
+}
+
+
+
 

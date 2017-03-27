@@ -13,6 +13,9 @@
 		5553D4CF1E4BA219009ADE8D /* IntNodeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5553D4CD1E4BA219009ADE8D /* IntNodeArray.cpp */; };
 		5553D4D21E4BA272009ADE8D /* DataStructureController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5553D4D01E4BA272009ADE8D /* DataStructureController.cpp */; };
 		5553D4D41E4BA2BF009ADE8D /* IntNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5553D4D31E4BA2BF009ADE8D /* IntNode.cpp */; };
+		5569E73F1E89A0E200774450 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5569E73E1E89A0E200774450 /* FileController.cpp */; };
+		5569E7421E89A21400774450 /* Meme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5569E7411E89A21400774450 /* Meme.cpp */; };
+		5569E7451E89A50700774450 /* StructureTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5569E7441E89A50700774450 /* StructureTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +46,12 @@
 		5553D4D01E4BA272009ADE8D /* DataStructureController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataStructureController.cpp; path = Controller/DataStructureController.cpp; sourceTree = "<group>"; };
 		5553D4D11E4BA272009ADE8D /* DataStructureController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataStructureController.hpp; path = Controller/DataStructureController.hpp; sourceTree = "<group>"; };
 		5553D4D31E4BA2BF009ADE8D /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IntNode.cpp; path = Model/IntNode.cpp; sourceTree = "<group>"; };
+		5569E73D1E89A0C500774450 /* FileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FileController.h; path = Controller/FileController.h; sourceTree = "<group>"; };
+		5569E73E1E89A0E200774450 /* FileController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FileController.cpp; path = Controller/FileController.cpp; sourceTree = "<group>"; };
+		5569E7401E89A20500774450 /* Meme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Meme.h; path = Model/Meme.h; sourceTree = "<group>"; };
+		5569E7411E89A21400774450 /* Meme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Meme.cpp; path = Model/Meme.cpp; sourceTree = "<group>"; };
+		5569E7431E89A4F800774450 /* StructureTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StructureTester.h; path = Controller/StructureTester.h; sourceTree = "<group>"; };
+		5569E7441E89A50700774450 /* StructureTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StructureTester.cpp; path = Controller/StructureTester.cpp; sourceTree = "<group>"; };
 		558B926C1E5F70010065E45F /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = List.hpp; path = Model/List.hpp; sourceTree = "<group>"; };
 		5597530F1E675D340034A83E /* DoublyLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DoublyLinkedList.h; path = Model/DoublyLinkedList.h; sourceTree = "<group>"; };
 		559753101E6768C00034A83E /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CircularList.h; path = Model/CircularList.h; sourceTree = "<group>"; };
@@ -107,6 +116,8 @@
 				55061CE01E71D7D500053558 /* DoubleList.h */,
 				553CADED1E7711EF00FB8829 /* Fooditem.cpp */,
 				553CADF01E77122600FB8829 /* Fooditem.h */,
+				5569E7401E89A20500774450 /* Meme.h */,
+				5569E7411E89A21400774450 /* Meme.cpp */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -117,6 +128,10 @@
 				5553D4CA1E4BA1F4009ADE8D /* NodeRunner.cpp */,
 				5553D4D01E4BA272009ADE8D /* DataStructureController.cpp */,
 				5553D4D11E4BA272009ADE8D /* DataStructureController.hpp */,
+				5569E73D1E89A0C500774450 /* FileController.h */,
+				5569E73E1E89A0E200774450 /* FileController.cpp */,
+				5569E7431E89A4F800774450 /* StructureTester.h */,
+				5569E7441E89A50700774450 /* StructureTester.cpp */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -183,7 +198,10 @@
 				553CADEF1E7711EF00FB8829 /* Fooditem.cpp in Sources */,
 				5553D4D21E4BA272009ADE8D /* DataStructureController.cpp in Sources */,
 				55061CE31E71E27700053558 /* Timer.cpp in Sources */,
+				5569E7421E89A21400774450 /* Meme.cpp in Sources */,
+				5569E73F1E89A0E200774450 /* FileController.cpp in Sources */,
 				5553D4CF1E4BA219009ADE8D /* IntNodeArray.cpp in Sources */,
+				5569E7451E89A50700774450 /* StructureTester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
