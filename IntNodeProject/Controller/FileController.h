@@ -11,7 +11,6 @@
 
 #include "../Model/DoubleList.h"
 #include "../Model/FoodItem.h"
-#include "../Model/Meme.h"
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -23,9 +22,9 @@ class FileController
 {
 private:
     DoubleList<FoodItem> foodItemList;
-    DoubleList<Meme> memeList;
 public:
-    DoubleList<Meme> readDataFromFile(string filename);
+    DoubleList<FoodItem> readFoodItemDataFromFileAsList(string filename);
+    void writeFoodItemDataStatistics(DoubleList<FoodItem> source, string filename);
     
 };
 
