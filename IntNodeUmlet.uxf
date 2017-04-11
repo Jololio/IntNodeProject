@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>64</x>
-      <y>696</y>
+      <x>56</x>
+      <y>608</y>
       <w>304</w>
       <h>168</h>
     </coordinates>
@@ -27,8 +27,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>392</x>
-      <y>712</y>
+      <x>384</x>
+      <y>624</y>
       <w>224</w>
       <h>104</h>
     </coordinates>
@@ -46,8 +46,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>56</x>
-      <y>88</y>
+      <x>48</x>
+      <y>0</y>
       <w>368</w>
       <h>232</h>
     </coordinates>
@@ -76,8 +76,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>736</y>
+      <x>352</x>
+      <y>648</y>
       <w>48</w>
       <h>32</h>
     </coordinates>
@@ -88,8 +88,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>56</x>
-      <y>664</y>
+      <x>48</x>
+      <y>576</y>
       <w>560</w>
       <h>208</h>
     </coordinates>
@@ -101,8 +101,8 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>56</x>
-      <y>400</y>
+      <x>48</x>
+      <y>312</y>
       <w>264</w>
       <h>240</h>
     </coordinates>
@@ -128,8 +128,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>192</x>
-      <y>312</y>
+      <x>184</x>
+      <y>224</y>
       <w>40</w>
       <h>104</h>
     </coordinates>
@@ -140,8 +140,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>344</x>
-      <y>400</y>
+      <x>336</x>
+      <y>312</y>
       <w>368</w>
       <h>256</h>
     </coordinates>
@@ -171,8 +171,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>368</x>
-      <y>312</y>
+      <x>360</x>
+      <y>224</y>
       <w>40</w>
       <h>104</h>
     </coordinates>
@@ -183,8 +183,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>88</y>
+      <x>472</x>
+      <y>0</y>
       <w>392</w>
       <h>224</h>
     </coordinates>
@@ -215,8 +215,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>160</y>
+      <x>408</x>
+      <y>72</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -226,8 +226,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>936</x>
-      <y>128</y>
+      <x>928</x>
+      <y>40</y>
       <w>352</w>
       <h>232</h>
     </coordinates>
@@ -254,8 +254,8 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>768</x>
-      <y>392</y>
+      <x>760</x>
+      <y>304</y>
       <w>216</w>
       <h>184</h>
     </coordinates>
@@ -283,8 +283,8 @@ bg=magenta</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>992</x>
-      <y>392</y>
+      <x>984</x>
+      <y>304</y>
       <w>208</w>
       <h>184</h>
     </coordinates>
@@ -311,8 +311,8 @@ bg=magenta</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1208</x>
-      <y>392</y>
+      <x>1200</x>
+      <y>304</y>
       <w>232</w>
       <h>168</h>
     </coordinates>
@@ -337,8 +337,8 @@ bg=magenta</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>912</x>
-      <y>352</y>
+      <x>904</x>
+      <y>264</y>
       <w>48</w>
       <h>56</h>
     </coordinates>
@@ -348,8 +348,8 @@ bg=magenta</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>352</y>
+      <x>1048</x>
+      <y>264</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -359,8 +359,8 @@ bg=magenta</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1272</x>
-      <y>352</y>
+      <x>1264</x>
+      <y>264</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -370,8 +370,8 @@ bg=magenta</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>864</x>
-      <y>144</y>
+      <x>856</x>
+      <y>56</y>
       <w>88</w>
       <h>40</h>
     </coordinates>
@@ -382,8 +382,8 @@ bg=magenta</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1312</x>
-      <y>128</y>
+      <x>1304</x>
+      <y>40</y>
       <w>248</w>
       <h>224</h>
     </coordinates>
@@ -414,12 +414,140 @@ bg=magenta</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1280</x>
-      <y>152</y>
+      <x>1272</x>
+      <y>64</y>
       <w>48</w>
       <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>776</x>
+      <y>512</y>
+      <w>424</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>BinarySearchTreeNode&lt;Type&gt;
+--
+- nodeData : Type (inherited)
+- rootPointer : BinarySearchTreeNode&lt;Type&gt; *
+- leftChildPointer : BinarySearchTreeNode&lt;Type&gt; *
+- rightChildPointer : BinarySearchTreeNode&lt;Type&gt; *
+--
+
++ BinarySearchTreeNode() : constructor
++ BinarySearchTreeNode(Type data) : constructor
+
++ getRootPointer() : BinarySearchTreeNode&lt;Type&gt; *
++ getLeftChildPointer() : BinarySearchTreeNode&lt;Type&gt; *
++ getRightChildPointer() : BinarySearchTreeNode&lt;Type&gt; *
+
++ setRootChildPointer(BinarySearchTreeNode&lt;Type&gt; * root) : void
++ setLeftChildPointer(BinarySearchTreeNode&lt;Type&gt; * left) : void
++ setRightChildPointer(BinarySearchTreeNode&lt;Type&gt; * right) : void
+
+bg=pink
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1224</x>
+      <y>512</y>
+      <w>328</w>
+      <h>248</h>
+    </coordinates>
+    <panel_attributes>/Model :: Tree&lt;Type&gt;/
+--
+- size : int
+- height : int
+- complete : bool
+- balanced : bool
+--
++ getSize() : int
++ getHeight() : ing
++ isComplete() : bool
++ isBalanced() : bool
+
++ setSize(int size) : void
++ setHeight(int height) : void
++ setComplete(bool complete) : void
++ setBalanced(bool balanced) : void
+
+/+ inOrderTraversal() : void/
+/+ preOrderTraversal() : void/
+/+ postOrderTraversal() : void/
+
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>808</x>
+      <y>792</y>
+      <w>432</w>
+      <h>248</h>
+    </coordinates>
+    <panel_attributes>Model :: BinarySearchTree&lt;Type&gt;
+--
+- root : BinarySearchTreeNode&lt;Type&gt; *
+- size : int (inherited)
+- height : int (inherited)
+- complete : bool (inherited)
+- balanced : bool (inherited)
+--
++ BinarySearchTree() : constructor
++ ~BinarySearchTree() : destructor
+
++ getRoot() : BinarySearchTreeNode&lt;Type&gt; *
++ setRoot(BinarySearchTreeNode&lt;Type&gt; * root) : void
+
+- calculateSize(BinarySearchTreeNode&lt;Type&gt; *) : int
+
+- inOrderTraversal(BinarySearchTreeNode&lt;Type&gt; *) : void
+- preOrderTraversal(BinarySearchTreeNode&lt;Type&gt; *) : void
+- postOrderTraversal(BinarySearchTreeNode&lt;Type&gt; *) : void
+
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>896</x>
+      <y>736</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>736</y>
+      <w>136</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;100.0;50.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>216</y>
+      <w>384</w>
+      <h>424</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;400.0;60.0;400.0;510.0;460.0;510.0</additional_attributes>
   </element>
 </diagram>
