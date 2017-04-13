@@ -10,6 +10,7 @@
 #define DoubleList_h
 
 #include "DoublyLinkedList.h"
+#include <assert.h>
 
 template <class Type>
 class DoubleList : DoublyLinkedList<Type>
