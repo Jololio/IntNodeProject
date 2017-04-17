@@ -15,10 +15,14 @@
 template <class Type>
 class BinarySearchTree : public Tree<Type>
 {
-private:
+protected:
     BinarySearchTreeNode<Type> * root;
     
     int calculateSize(BinarySearchTreeNode<Type> * root);
+    int calculateHeight(BinarySearchTreeNode<Type> * root);
+    bool isBalanced(BinarySearchTreeNode<Type> * root);
+    bool isComplete(BinarySearchTreeNOde<Type> * root);
+    
     void inOrderTraversal(BinarySearchTreeNode<Type> * inStart);
     void preOrderTraversal(BinarySearchTreeNode<Type> * preStart);
     void postOrderTraversal(BinarySearchTreeNode<Type> * postStart);
@@ -34,6 +38,11 @@ public:
     void inOrderTraversal();
     void preOrderTravesral();
     void postOrderTravesral();
+    
+    int getSize();
+    int getHeight();
+    bool isComplete();
+    bool isBalanced();
     
     void printToFile();
     
@@ -84,11 +93,59 @@ void BinarySearchTree<Type> :: postOrderTraversal()
     postOrderTraversal(root);
 }
 
+template<class Type>
+bool BinarySearchTree<Type> :: isBalanced(BinarySearchTreeNode<Type> * start)
+{
+    int leftHeight = 0;
+    int rightHeight = 0;
+    
+    if(start == nullptr)
+    {
+        return true;
+    }
+    
+    leftHeight = calculateHeight(start->getLeftChild());
+    rightHeight = calculateheight(start->getRightChild());
+    
+    int heightDifference = abs(leftHeight->rightHeight);
+    bool leftBalanced = isBalanced(start->getLeftChild());
+    bool rightBalanced = isBalanced(start->getRightChild());
+    
+    if(heightDifference <= 1 && leftBalanced && rightBalanced)
+    {
+        return true;
+    }
+    
+    return false;
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: calculateHeight(BinarySearchTreeNode<Type> * start)
+{
+    if(start == nullptr)
+    {
+        return 0;
+    }
+    else
+    {
+        return 1 + max(calculateHeight(start->getLeftChild()), calculateHeight(start->getRightChild()));
+    }
+}
 
 template <class Type>
 int BinarySearchTree<Type> :: calculateSize(BinarySearchTreeNOde<Type> * start)
 {
-    return -99;
+    int count = 1;
+    if(start == nullptr)
+    {
+        return 0;
+    }
+    else
+    {
+        count += calculateSize(start->getLeftChild());
+        count += calculateSize(start->getRightChild());
+        return count;
+    }
 }
 
 template <class Type>
@@ -350,6 +407,33 @@ void BinarySearchTree<Type> :: removeNode(BinarySearchTreeNode<Type> * & removeM
     if(removeMe == nullptr || removeMe->getRootPointer == nullptr)
     {
         setRoot(removeMe);
+    }
+    
+    template <class Type>
+    void BinarySearchTree<Type> :: getSize()
+    {
+        return calculateSize(root);
+    }
+    
+    template <class Type>
+    int BinarySearchTree<Type> :: getHeight()
+    {
+        return calculatedHeight(root);
+    }
+    
+    template <class Type>
+    bool BinarySearchTree<Type> :: isBalanced()
+    {
+        return isBalanced(root);
+    }
+    
+    template <class Type>
+    bool BinarySearchTree<Type> :: isComplete()
+    {
+        int index = 0;
+        int size = getSize();
+        
+        return isComplete(root, )
     }
     
 }
