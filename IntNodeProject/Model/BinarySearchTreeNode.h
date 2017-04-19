@@ -33,7 +33,7 @@ public:
 };
 
 template <class Type>
-BinarySearchTreeNode<Type> :: BinarySearchTreeNode() : Nodde<Type>()
+BinarySearchTreeNode<Type> :: BinarySearchTreeNode() : Node<Type>()
 {
     this->root = nullptr;
     this->leftChild = nullptr;

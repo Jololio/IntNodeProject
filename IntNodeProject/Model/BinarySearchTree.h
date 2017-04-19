@@ -9,7 +9,7 @@
 #ifndef BinarySearchTree_h
 #define BinarySearchTree_h
 
-#include "Tree.h"
+#include "Tree.hpp"
 #include "BinarySearchTreeNode.h"
 
 template <class Type>
@@ -21,7 +21,7 @@ protected:
     int calculateSize(BinarySearchTreeNode<Type> * root);
     int calculateHeight(BinarySearchTreeNode<Type> * root);
     bool isBalanced(BinarySearchTreeNode<Type> * root);
-    bool isComplete(BinarySearchTreeNOde<Type> * root);
+    bool isComplete(BinarySearchTreeNode<Type> * root);
     
     void inOrderTraversal(BinarySearchTreeNode<Type> * inStart);
     void preOrderTraversal(BinarySearchTreeNode<Type> * preStart);
@@ -36,15 +36,13 @@ public:
     void setRoot(BinarySearchTreeNode<Type> * root);
     
     void inOrderTraversal();
-    void preOrderTravesral();
+    void preOrderTraversal();
     void postOrderTravesral();
     
     int getSize();
     int getHeight();
     bool isComplete();
     bool isBalanced();
-    
-    void printToFile();
     
     bool contains(Type value);
     void insert(Type itemToInster);
@@ -435,6 +433,33 @@ void BinarySearchTree<Type> :: removeNode(BinarySearchTreeNode<Type> * & removeM
         
         return isComplete(root, )
     }
+    
+}
+
+template <class Type>
+bool BinarySearchTree<Type> :: isComplete()
+{
+    int index = 0;
+    int size = getSize();
+    
+    return isComplete(root, index, size);
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: getSize()
+{
+    
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: getHeight()
+{
+    
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: isBalanced()
+{
     
 }
 
