@@ -11,6 +11,7 @@
 #include "../Model/Fooditem.h"
 #include "../Controller/FileController.h"
 #include "../Model/BinarySearchTree.h"
+#include "../Model/CrimeData.cpp"
 
 
 using namespace std;

@@ -37,7 +37,7 @@ BinarySearchTreeNode<Type> :: BinarySearchTreeNode() : Node<Type>()
 {
     this->root = nullptr;
     this->leftChild = nullptr;
-    this->rightChild = nullptr
+    this->rightChild = nullptr;
 }
 
 template <class Type>
