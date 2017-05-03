@@ -46,6 +46,7 @@
 		5553D4D01E4BA272009ADE8D /* DataStructureController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataStructureController.cpp; path = Controller/DataStructureController.cpp; sourceTree = "<group>"; };
 		5553D4D11E4BA272009ADE8D /* DataStructureController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataStructureController.hpp; path = Controller/DataStructureController.hpp; sourceTree = "<group>"; };
 		5553D4D31E4BA2BF009ADE8D /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IntNode.cpp; path = Model/IntNode.cpp; sourceTree = "<group>"; };
+		556313371EBA536C007FB024 /* HashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HashTable.h; path = Model/HashTable.h; sourceTree = "<group>"; };
 		5569E73D1E89A0C500774450 /* FileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FileController.h; path = Controller/FileController.h; sourceTree = "<group>"; };
 		5569E73E1E89A0E200774450 /* FileController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FileController.cpp; path = Controller/FileController.cpp; sourceTree = "<group>"; };
 		5569E7431E89A4F800774450 /* StructureTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StructureTester.h; path = Controller/StructureTester.h; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 				55EA30CB1E6A048B001B66DE /* Queue.h */,
 				553C55EC1E6F4A680063CD62 /* Stack.h */,
 				55061CE01E71D7D500053558 /* DoubleList.h */,
+				556313371EBA536C007FB024 /* HashTable.h */,
 			);
 			name = "Linear Structures";
 			sourceTree = "<group>";
