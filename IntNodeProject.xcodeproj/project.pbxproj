@@ -58,6 +58,7 @@
 		559753101E6768C00034A83E /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CircularList.h; path = Model/CircularList.h; sourceTree = "<group>"; };
 		559A25A61E64C73D006FCBCE /* BiDirectionalNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BiDirectionalNode.h; path = Model/BiDirectionalNode.h; sourceTree = "<group>"; };
 		55A763211E523EAE00EE9BA5 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Node.h; path = Model/Node.h; sourceTree = "<group>"; };
+		55B932F71EC2352300386FC5 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Graph.h; path = Model/Graph.h; sourceTree = "<group>"; };
 		55EA30CB1E6A048B001B66DE /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Queue.h; path = Model/Queue.h; sourceTree = "<group>"; };
 		55EA3ADB1EA7EF1100C921CD /* AVLTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AVLTree.h; path = Model/AVLTree.h; sourceTree = "<group>"; };
 		55F937711EA5350200670C1F /* Tree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tree.hpp; path = Model/Tree.hpp; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		5553D4C81E4BA1D0009ADE8D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55B932F61EC2350F00386FC5 /* Non-Linear */,
 				559535A01E9D5FED008E3B8E /* Trees */,
 				559535A11E9D5FFD008E3B8E /* Items to store */,
 				559535A21E9D6016008E3B8E /* Tools */,
@@ -192,6 +194,14 @@
 				5569E7441E89A50700774450 /* StructureTester.cpp */,
 			);
 			name = Tester;
+			sourceTree = "<group>";
+		};
+		55B932F61EC2350F00386FC5 /* Non-Linear */ = {
+			isa = PBXGroup;
+			children = (
+				55B932F71EC2352300386FC5 /* Graph.h */,
+			);
+			name = "Non-Linear";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

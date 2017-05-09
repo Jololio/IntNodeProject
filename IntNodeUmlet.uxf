@@ -551,4 +551,33 @@ bg=pink</panel_attributes>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;400.0;60.0;400.0;510.0;460.0;510.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>792</y>
+      <w>360</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>Graph&lt;Type&gt;
+--
+- MAXIMUM : int
+- adjacencyMatrix : bool
+- vertexCount : int
+--
++ Graph() : constructor
++ ~Graph() : destructor
+
++ addVertex(const Type &amp; value) : void
++ addEdge(int source, int target) : void
++ removeEdge(int source, int target) : void
++ size() const : int
++ areConnected(int source, int target) const : bool
++ depthFirstTraversal(Graph&lt;Type&gt; graph, int vertex) : void
++ breadthFirstTraversal(Graph&lt;Type&gt; graph, int vertex) : void
+
+
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
